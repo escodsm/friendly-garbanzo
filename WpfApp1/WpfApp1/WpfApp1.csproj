@@ -8,4 +8,16 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="csi.png" />
+    <None Remove="IMG_0607.jpeg" />
+    <None Remove="uwmLogo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="csi.png" />
+    <Resource Include="IMG_0607.jpeg" />
+    <Resource Include="uwmLogo.png" />
+  </ItemGroup>
+
 </Project>

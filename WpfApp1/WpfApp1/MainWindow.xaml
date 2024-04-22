@@ -7,8 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button x:Name="BeginBtn" Content="Begin" HorizontalAlignment="Left" Margin="301,151,0,0" VerticalAlignment="Top" Height="34" Width="187" FontSize="18"/>
         <TextBlock HorizontalAlignment="Left" Margin="273,75,0,0" TextWrapping="Wrap" Text="DEEP Model Digital Twin" VerticalAlignment="Top" FontFamily="Segoe UI Black" FontSize="20" Width="307"/>
-        <TextBlock HorizontalAlignment="Center" Margin="0,102,0,0" TextWrapping="Wrap" Text="LAUNCHER" VerticalAlignment="Top" Foreground="Red" FontFamily="Arial Black" FontSize="48"/>
+        <TextBlock HorizontalAlignment="Left" Margin="271,75,0,0" TextWrapping="Wrap" Text="LAUNCHER" VerticalAlignment="Top" Foreground="Red" FontFamily="Road Rage" FontSize="48"/>
+        <MediaElement HorizontalAlignment="Left" Height="100" Margin="185,256,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image HorizontalAlignment="Center" Height="517" Margin="0,184,0,0" VerticalAlignment="Top" Width="780" Source="/csi.png" Panel.ZIndex="-1"/>
 
     </Grid>
 </Window>
